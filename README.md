@@ -10,22 +10,23 @@ xml_Parse.java, xml_Tree.java: Recursive text parser that ensures xml documents 
 
 i.e: 
 <!-->
-<BackgroundCheck>
-  <CriminalHistory>
-    <HistoryCode>x</HistoryCode>
-    < HistoryCode>y</HistoryCode>
-    < HistoryCode>z</HistoryCode>
-  </CriminalHistory>
-</BackgroundCheck>
-
+			<BackgroundCheck>
+  				<CriminalHistory>
+    				<HistoryCode>x</HistoryCode>
+    				<HistoryCode>y</HistoryCode>
+    				<HistoryCode>z</HistoryCode>
+  				</CriminalHistory>
+			</BackgroundCheck>
+<!-->
 vs:
 
 <!-->
-<BackgroundCheck>
-  <CriminalHistory>
-    <Fail>
-    <HistoryCode>x</HistoryCode>
-    < HistoryCode>y</HistoryCode>
-    < HistoryCode>z</HistoryCode>
-  </CriminalHistory>
-</BackgroundCheck>
+			<BackgroundCheck>
+  				<CriminalHistory>
+    			<Fail>
+    				<HistoryCode>x</HistoryCode>
+    				<HistoryCode>y</HistoryCode>
+    				<HistoryCode>z</HistoryCode>
+  				</CriminalHistory>
+			</BackgroundCheck>
+<!-->
