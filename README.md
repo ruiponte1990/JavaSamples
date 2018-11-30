@@ -9,7 +9,7 @@ UserKey.java, UserKeyTests.java, TestSuite.java and TestRunner.java: Creating a 
 xml_Parse.java, xml_Tree.java: Recursive text parser that ensures xml documents are well formed and correct
 
 i.e: 
-
+<!-->
 <BackgroundCheck>
   <CriminalHistory>
     <HistoryCode>x</HistoryCode>
@@ -20,6 +20,7 @@ i.e:
 
 vs:
 
+<!-->
 <BackgroundCheck>
   <CriminalHistory>
     <Fail>
